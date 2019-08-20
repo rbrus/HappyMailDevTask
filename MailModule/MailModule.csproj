@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mail.dll" Version="3.0.19162.1801" />
+    <PackageReference Include="NLog" Version="4.6.6" />
+    <PackageReference Include="System.Reactive" Version="4.1.6" />
+    <PackageReference Include="System.Reactive.Core" Version="4.1.6" />
+    <PackageReference Include="System.Reactive.Interfaces" Version="4.1.6" />
+    <PackageReference Include="System.Reactive.Linq" Version="4.1.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MailConfig\MailConfig.csproj" />
+    <ProjectReference Include="..\MailDll\MailDll.csproj" />
+    <ProjectReference Include="..\MailHelpers\Models.csproj" />
+    <ProjectReference Include="..\MailStorage\MailStorage.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>MailDll</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mail.dll" Version="3.0.19162.1801" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MailConfig\MailConfig.csproj" />
+  </ItemGroup>
+
+</Project>
